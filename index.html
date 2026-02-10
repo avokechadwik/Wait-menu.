@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wait Coffee</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f3ede7, #ffffff);
+    }
+
+    header {
+      background: linear-gradient(135deg, #111, #2a2a2a);
+      color: white;
+      text-align: center;
+      padding: 25px 20px;
+    }
+
+    header img {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .menu-container {
+      max-width: 1000px;
+      margin: 20px auto;
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(4px);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    .download-btn {
+      display: inline-block;
+      margin-bottom: 15px;
+      padding: 10px 15px;
+      background: #6f4e37;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .download-btn:hover {
+      background: #5a3e2b;
+    }
+
+    .menu-image {
+      width: 100%;
+      margin-bottom: 15px;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #555;
+      background: #eee;
+      margin-top: 30px;
+    }
+
+    /* WhatsApp button */
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 12px 16px;
+      border-radius: 50px;
+      font-size: 16px;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      z-index: 1000;
+    }
+
+    .whatsapp-btn:hover {
+      background: #1ebe5d;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Wait Coffee Logo">
+    <h1>Wait Coffee - Menu</h1>
+  </header>
+
+  <div class="menu-container">
+    <a class="download-btn" href="menu.zip" download>
+      📥 Download Menu (PNG)
+    </a>
+
+    <!-- Replace with your images -->
+    <img class="menu-image" src="page1.PNG" alt="Menu Page 1">
+    <img class="menu-image" src="page2.PNG" alt="Menu Page 2">
+    <img class="menu-image" src="page3.PNG" alt="Menu Page 3">
+    <img class="menu-image" src="page4.PNG" alt="Menu Page 4">
+  </div>
+
+  <footer>
+    © 2026 Wait Coffee.
+  </footer>
+
+  <!-- WhatsApp -->
+  <a class="whatsapp-btn" href="https://wa.me/218918506969?text=Hello%20Wait%20Coffee%2C%20I%20want%20to%20order" target="_blank">
+    💬 WhatsApp
+  </a>
+
+</body>
+</html>
